@@ -15,7 +15,7 @@ import Button from "components/CustomButtons/Button.jsx";
 import Parallax from "components/Parallax/Parallax.jsx";
 // sections for this page
 import HeaderLinks from "components/Header/HeaderLinks.jsx";
-import SectionBasics from "./Sections/SectionBasics.jsx";
+import SectionSkills from "./Sections/SectionSkills.jsx";
 import SectionNavbars from "./Sections/SectionNavbars.jsx";
 import SectionTabs from "./Sections/SectionTabs.jsx";
 import SectionPills from "./Sections/SectionPills.jsx";
@@ -36,7 +36,7 @@ class Components extends React.Component {
     return (
       <div>
         <Header
-          brand="Material Kit React"
+          brand="Andrew H. Waller"
           rightLinks={<HeaderLinks />}
           fixed
           color="transparent"
@@ -51,9 +51,9 @@ class Components extends React.Component {
             <GridContainer>
               <GridItem>
                 <div className={classes.brand}>
-                  <h1 className={classes.title}>Material Kit React.</h1>
+                  <h1 className={classes.title}>Andrew H. Waller</h1>
                   <h3 className={classes.subtitle}>
-                    A Badass Material-UI Kit based on Material Design.
+                    Full stack web developer in Austin, Texas.
                   </h3>
                 </div>
               </GridItem>
@@ -62,7 +62,7 @@ class Components extends React.Component {
         </Parallax>
 
         <div className={classNames(classes.main, classes.mainRaised)}>
-          <SectionBasics />
+          <SectionSkills />
           <SectionNavbars />
           <SectionTabs />
           <SectionPills />

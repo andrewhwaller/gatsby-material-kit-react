@@ -8,6 +8,9 @@ import FormControlLabel from "@material-ui/core/FormControlLabel";
 import Checkbox from "@material-ui/core/Checkbox";
 import Radio from "@material-ui/core/Radio";
 import Switch from "@material-ui/core/Switch";
+import Card from '@material-ui/core/Card';
+import CardActions from '@material-ui/core/CardActions';
+import CardContent from '@material-ui/core/CardContent';
 // @material-ui/icons
 import Favorite from "@material-ui/icons/Favorite";
 import People from "@material-ui/icons/People";
@@ -26,7 +29,7 @@ import Badge from "components/Badge/Badge.jsx";
 
 import basicsStyle from "assets/jss/material-kit-react/views/componentsSections/basicsStyle.jsx";
 
-class SectionBasics extends React.Component {
+class SectionSkills extends React.Component {
   constructor(props) {
     super(props);
     this.state = {
@@ -78,9 +81,9 @@ class SectionBasics extends React.Component {
       <div className={classes.sections}>
         <div className={classes.container}>
           <div className={classes.title}>
-            <h2>Basic Elements</h2>
+            <h2>Skills</h2>
           </div>
-          <div id="buttons">
+          <div id="skills">
             <div className={classes.title}>
               <h3>
                 Buttons
@@ -612,4 +615,4 @@ class SectionBasics extends React.Component {
   }
 }
 
-export default withStyles(basicsStyle)(SectionBasics);
+export default withStyles(basicsStyle)(SectionSkills);
