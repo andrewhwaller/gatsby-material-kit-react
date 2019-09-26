@@ -8,11 +8,7 @@ import FormControlLabel from "@material-ui/core/FormControlLabel";
 import Checkbox from "@material-ui/core/Checkbox";
 import Radio from "@material-ui/core/Radio";
 import Switch from "@material-ui/core/Switch";
-import Card from '@material-ui/core/Card';
-import CardActions from '@material-ui/core/CardActions';
-import CardContent from '@material-ui/core/CardContent';
 // @material-ui/icons
-import Favorite from "@material-ui/icons/Favorite";
 import People from "@material-ui/icons/People";
 import Check from "@material-ui/icons/Check";
 import FiberManualRecord from "@material-ui/icons/FiberManualRecord";
@@ -84,28 +80,8 @@ class SectionSkills extends React.Component {
             <h2>Skills</h2>
           </div>
           <div id="skills">
-            <div className={classes.title}>
-              <h3>
-                Buttons
-                <br />
-                <small>Pick your style</small>
-              </h3>
-            </div>
             <GridContainer justify="center">
               <GridItem xs={12} sm={12} md={8}>
-                <Button color="primary">Default</Button>
-                <Button color="primary" round>
-                  round
-                </Button>
-                <Button color="primary" round>
-                  <Favorite className={classes.icons} /> with icon
-                </Button>
-                <Button justIcon round color="primary">
-                  <Favorite className={classes.icons} />
-                </Button>
-                <Button color="primary" simple>
-                  simple
-                </Button>
               </GridItem>
             </GridContainer>
             <div className={classes.title}>
